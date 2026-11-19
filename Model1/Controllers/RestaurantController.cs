@@ -1,6 +1,9 @@
-﻿namespace Model1.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Model1.Controllers
 {
-    public class RestaurantController
+    [ApiController]
+    public class RestaurantController:ControllerBase
     {
     }
 }
